@@ -1,0 +1,28 @@
+ Business entities:
+
+Organization:	
+          name,location 
+Company:     id, name, location, positions available
+	      criteria,registered candidates
+Candidate:id,name,address,mobile no,
+
+job:
+	job id,requirements, candidateid,aVAILABLE POSITIOS
+
+
+APPLY:
+	 candidate id,cv,documents,critaria,authentication.
+
+CRUD Operations:
+C:Create
+R:Read
+U:Update
+D:Delete
+
+Bussiness Operations :
+login,logout,apply,search,acept,remove,see available jobs,
+accept candidates,reject candidates,send notifications,
+remove jobs,add jobs
+
+
+                                                                                                                                                                   k

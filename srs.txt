@@ -1,0 +1,52 @@
+
+Document:System Requirement Specification Document
+
+Title:System Reqruiement Spefication for Employee recruiter system
+
+Team:Direct Customer, Indirect Customer,Architect, Business Analyst,Quality Assurance Team,System Analyst
+
+Objective:
+	The Employee recruiter System is intended to  provide complete solution
+	for Jobseeker,Organization  using internet. It will provide platform for jobseeker to view Organization requirement and apply suitable  jobs with help of CV.The primary purpose to develop this system is to optimize requirement process for an organization.
+
+Scope:
+	This System allows Jobseekers for viewing and applying for suitable jobs	.Jobseekers can view jobs as per their requirement and Apply to it.
+This is an 24 Hours  available .
+	This system  will also make it possible for organizations to post their staffing requirements and view profile of interested candidates.
+
+Functional Requirements:
+
+	Any registered User will be able to view available jobs and their requirements. Any registered user will able to apply for job as per their requirements.
+	organizations will post their staffing requirements and view profile of interested candidates.
+And will remove after fill the positions
+	Organization will able to accept and reject candidates as per their critaria,
+	Organization Staff will be to analyze and post jobs  available for Hiring.
+	
+	Candidate will be able to apply jobs maintained by system.organization will be able to approve or reject as per teir critaria.
+	Organization staff will be able to update  job details which have been already added in system.
+	job listing will be provided based their critaria.
+ 
+         Organization  will be able to  add or remove jobs from system. System will maintain job details for  registered candidates/users
+	  Organization will able to reject and notify the reason of rejection and also will able to send process,time of interview to selected student 
+		Company  will be able get details of candidate o. company  will be able to  reject or approve . Candidates as per treir critaria.
+         Candidate will be able track/see the process of selection with help of candidate id.Candidate  will be able to change the requirement for searching job. 
+	 
+	
+
+NonFunctional Requirement:
+
+Security
+ candidate will be allowed to apply after registration only.	
+Each user will be to access system  through authentication process. 
+System will provide access to  the content , operations using Role based security (Authorization) (Permissions based on Role)
+It would protect confidential information shared by system.
+System will automatically log of  all stakeholder after some time due to inactiveness.
+Reliability
+The system will backup business data on regular basis and recover in short time duration to keep system operational Continous updates are matained and also During peak hours system will maintain .
+
+Availability
+	uptime:   24* 7  availab
+Accessibility:
+only registered customer will be able to apply jobs after authentication.
+Company will be able to see applied candidate data and reject or accept candidate for interview
+Role based security will be applied for Application data and operations accessibility.
