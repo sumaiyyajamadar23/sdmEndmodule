@@ -3,7 +3,7 @@ Document:System Requirement Specification Document
 
 Title:System Reqruiement Spefication for Employee recruiter system
 
-Team:Direct Customer, Indirect Customer,Architect, Business Analyst,Quality Assurance Team,System Analyst
+
 
 Objective:
 	The Employee recruiter System is intended to  provide complete solution
