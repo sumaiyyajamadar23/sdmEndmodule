@@ -1,0 +1,18 @@
+ package com.code;
+
+import java.time.LocalDate;
+
+public class Owner
+{
+private String adharno;
+private String firstname;
+private String lastname;
+private String email;
+private String address;
+private String mobileno;
+private Property_type type;
+private LocalDate availableDate;
+private int rent;
+private boolean isrentout =false;
+}
+
