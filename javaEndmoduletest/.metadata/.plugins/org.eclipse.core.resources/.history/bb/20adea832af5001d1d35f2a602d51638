@@ -1,0 +1,25 @@
+package Utils;
+
+import java.text.ParseException;
+import java.time.LocalDate;
+import java.util.HashSet;
+import CustomException.PropertyException;
+import com.code.Owner;
+
+public class Validationrules
+{
+@SuppressWarnings("unlikely-arg-type")
+public static void checkduplicates(String adhar,HashSet<Owner>own) throws PropertyException
+{
+	if(own.contains(adhar))
+	  throw new PropertyException("Duplicate adhar no!!!");
+	System.out.println("No duplicate ");
+}
+public static LocalDate parseDate(String date) throws PropertyException
+{
+	LocalDate d1=LocalDate.parse(date);
+	if(d1.isBefore(LocalDate.now()))
+	 throw new PropertyException("invalid date ! date shoud be after todays date!!!");
+	return d1;
+}
+}
